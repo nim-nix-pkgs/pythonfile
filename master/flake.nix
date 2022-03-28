@@ -11,7 +11,6 @@
   inputs.src-pythonfile-master.ref   = "refs/heads/master";
   inputs.src-pythonfile-master.owner = "achesak";
   inputs.src-pythonfile-master.repo  = "nim-pythonfile";
-  inputs.src-pythonfile-master.dir   = "";
   inputs.src-pythonfile-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
